@@ -19,7 +19,7 @@ const App = () => (
       component={RestaurantDetails}
     />
     <ProtectedRoute exact path="/cart" component={Cart} />
-    <ProtectedRoute exact path="/not-found" component={NotFound} />
+    <ProtectedRoute path="/not-found" component={NotFound} />
     <Redirect to="not-found" />
   </Switch>
 )
