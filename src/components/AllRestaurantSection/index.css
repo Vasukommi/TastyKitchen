@@ -1,0 +1,214 @@
+.all-restaurant-responsive-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hr-line {
+  border: 1px solid #cbd2d9;
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  .hr-line {
+    width: 80%;
+  }
+}
+.restaurant-list {
+  padding-left: 0px;
+  list-style-type: none;
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  .restaurant-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+}
+
+.restaurant-error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  padding-bottom: 64px;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-error-view-container {
+    margin-top: 0px;
+    margin-left: 30px;
+    width: 80%;
+    padding-bottom: 0;
+  }
+}
+
+.restaurant-failure-img {
+  width: 250px;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-failure-img {
+    width: 400px;
+    height: 350px;
+  }
+}
+
+.restaurant-failure-heading-text {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 160% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 800 */
+
+  color: #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-failure-heading-text {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    /* Light / blue-gray / 800 */
+
+    color: #1e293b;
+  }
+}
+
+.restaurant-failure-description {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-failure-description {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+
+    text-align: center;
+
+    /* Light / blue-gray / 600 */
+
+    color: #475569;
+  }
+}
+.error-button {
+  background-color: #f7931e;
+  border-radius: 8px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  /* Light / base / white */
+
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .error-button {
+    background-color: #f7931e;
+    border-radius: 12px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    /* Light / base / white */
+
+    color: #ffffff;
+  }
+}
+
+.restaurant-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-loader-container {
+    width: 80%;
+  }
+}
+
+.restaurant-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.arrow-button {
+  border: none;
+  padding: 0px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.current-page {
+  font-family: Bree Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 700 */
+
+  color: #334155;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .current-page {
+    font-family: Bree Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+
+    /* Light / blue-gray / 700 */
+
+    color: #334155;
+  }
+}
+
+.option-id {
+  margin-left: 7px;
+  margin-right: 5px;
+}

@@ -1,0 +1,232 @@
+.nav-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(243, 243, 243);
+  background-color: #f8fafc;
+  margin-bottom: 4vh;
+  width: 100%;
+  font-family: DM Sans;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-header {
+    flex-direction: column;
+    align-items: center;
+    border-bottom-style: none;
+    margin-bottom: 0;
+  }
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+@media screen and (max-width: 768px) {
+  .nav-content {
+    flex-direction: column;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 90%;
+  }
+}
+
+.nav-bar-mobile-logo-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar-mobile-logo-container {
+    display: none;
+  }
+}
+
+.nav-bar-large-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-bar-large-container {
+    display: none;
+  }
+}
+.header-logo-container {
+  display: flex;
+  align-items: center;
+}
+.website-logo {
+  width: 35px;
+  height: 28px;
+  margin-right: 10px;
+}
+.logo-name {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #f7931e;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 49px;
+    height: 39px;
+    margin-right: 18px;
+  }
+  .logo-name {
+    font-family: DM Sans;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #f7931e;
+  }
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex: 1;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-menu {
+    display: none;
+  }
+  .website-logo-mobile {
+    height: 32px;
+    width: 39px;
+  }
+}
+.nav-mobile-only-menu {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .nav-mobile-only-menu {
+    display: none;
+  }
+}
+.nav-menu-mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-menu-mobile {
+    display: none;
+  }
+}
+.nav-menu-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu-list-mobile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.nav-menu-item {
+  font-family: 'Roboto';
+  text-decoration: none;
+  margin: 10px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #334155;
+}
+
+.nav-menu-item-mobile {
+  font-family: 'Roboto';
+  text-decoration: none;
+  margin-right: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.logout-desktop-btn {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 10px;
+  padding: 8px 16px;
+  color: #ffffff;
+  background-color: #f7931e;
+  border: none;
+  border-radius: 8px;
+  margin-left: 14px;
+  cursor: pointer;
+  outline: none;
+  height: 32px;
+  width: 73px;
+}
+.logout-desktop-btn-mobile {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 10px;
+  padding: 8px 16px;
+  color: #ffffff;
+  background-color: #f7931e;
+  border: none;
+  border-radius: 8px;
+  margin-left: 14px;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (max-width: 767px) {
+  .logout-desktop-btn {
+    display: none;
+  }
+}
+.nav-mobile-btn-container {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+}
+
+.nav-mobile-btn {
+  border: none;
+  padding: 0px;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-mobile-btn {
+    display: none;
+  }
+}
+
+.close-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

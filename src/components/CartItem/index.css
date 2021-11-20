@@ -1,0 +1,125 @@
+.mobile-list-cart-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 0;
+}
+@media screen and (min-width: 768px) {
+  .mobile-list-cart-item {
+    display: none;
+  }
+}
+.mobile-cart-item-image {
+  width: 136px;
+  height: 90px;
+  margin-right: 16px;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+.cart-Item-name {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+
+  color: #183b56;
+}
+.cartItem-quantity-container {
+  display: flex;
+  align-items: center;
+}
+.cart-item-quantity {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.cart-item-cost {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #ffa412;
+}
+
+.desktop-list-cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+@media screen and (max-width: 768px) {
+  .desktop-list-cart-item {
+    display: none;
+  }
+}
+.desktop-item-container {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+.desktop-cart-item-image {
+  width: 136px;
+  height: 100px;
+  margin-right: 16px;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+.desktop-cart-item-name {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #183b56;
+}
+.desktop-cartItem-quantity-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+.desktop-cart-item-quantity {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.desktop-cart-item-cost {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffa412;
+  width: 30%;
+  text-align: center;
+}
+.decrement-button {
+  background-color: transparent;
+  padding: 0px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.increment-button {
+  background-color: transparent;
+  padding: 0px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}

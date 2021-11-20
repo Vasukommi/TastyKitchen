@@ -1,0 +1,150 @@
+.food-item-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  font-family: DM Sans;
+}
+@media screen and (min-width: 768px) {
+  .food-item-container {
+    margin-bottom: 32px;
+    width: 45%;
+  }
+}
+.food-item-image {
+  height: 100px;
+  width: 160px;
+  border-radius: 8px;
+  margin-right: 16px;
+  flex-shrink: 0;
+}
+@media screen and (min-width: 768px) {
+  .food-item-image {
+    height: 150px;
+    width: 255px;
+    border-radius: 8px;
+  }
+}
+.food-item-details-container {
+  display: flex;
+  flex-direction: column;
+}
+.food-item-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #334155;
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .food-item-name {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+.food-item-cost {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #334155;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+@media screen and (min-width: 768px) {
+  .food-item-cost {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+.food-item-star {
+  font-size: 12px;
+  color: #ffcc00;
+  margin-right: 4px;
+}
+@media screen and (min-width: 768px) {
+  .food-item-star {
+    font-size: 20px;
+  }
+}
+.food-item-rating {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  color: #1e293b;
+}
+.food-item-button {
+  border: 2px solid #ffa412;
+  background-color: transparent;
+  color: #ffa412;
+  font-size: 12px;
+  line-height: 16px;
+  align-self: flex-start;
+  border-radius: 5px;
+  margin-top: 4px;
+  cursor: pointer;
+  outline: none;
+  height: 32px;
+  width: 58px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .food-item-button {
+    margin-top: 8px;
+  }
+}
+.food-item-quantity-container {
+  display: flex;
+  align-items: center;
+}
+.item-quantity-number {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.minus-button {
+  border: 1px solid #3e4c59;
+  background-color: transparent;
+  padding-left: 4px;
+  padding-right: 4px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid black;
+  font-size: 20px;
+}
+.plus-button {
+  border: 1px solid #3e4c59;
+  background-color: transparent;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: #3e4c59;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid black;
+  font-size: 20px;
+}

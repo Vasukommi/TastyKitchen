@@ -1,0 +1,293 @@
+.specific-restaurant-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: DM Sans;
+}
+.restaurant-banner-container {
+  background-image: url('https://res.cloudinary.com/dw1fcsurf/image/upload/v1635652165/Tasty%20Kitchen/AddFood/Frame_279_sbqrjg.png');
+  width: 100%;
+  display: flex;
+}
+@media screen and (min-width: 768px) {
+  .restaurant-banner-container {
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+}
+.banner-responsive-container {
+  display: flex;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .banner-responsive-container {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 768px) {
+  .banner-details-container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+.specific-restaurant-image {
+  width: 221px;
+  height: 221px;
+  border-radius: 100px;
+  border-bottom-right-radius: 150px;
+  border-top-right-radius: 70px;
+  margin-right: 16px;
+  margin-left: -68px;
+}
+@media screen and (min-width: 768px) {
+  .specific-restaurant-image {
+    width: 445px;
+    height: 280px;
+    margin-right: 30px;
+    border-radius: 8px;
+  }
+}
+.specific-restaurant-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  margin: 0px;
+
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .specific-restaurant-name {
+    font-size: 36px;
+    line-height: 48px;
+  }
+}
+.specific-restaurant-cuisine {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .specific-restaurant-cuisine {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    margin-top: 12px;
+    margin-bottom: 8px;
+  }
+}
+.specific-restaurant-location {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .specific-restaurant-location {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.rating-cost-container {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.restaurant-details-star {
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 4px;
+}
+
+.specific-restaurant-rating {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  margin: 0px;
+}
+.specific-restaurant-reviews {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #e2e8f0;
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+.line {
+  border-left: 1px solid #e2e8f0;
+  margin-left: 16px;
+  margin-right: 16px;
+  height: 33px;
+}
+@media screen and (min-width: 768px) {
+  .line {
+    border-left: 1px solid #e2e8f0;
+    margin-left: 16px;
+    margin-right: 16px;
+    height: 33px;
+  }
+}
+.specific-restaurant-cost {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+}
+.specific-restaurant-cost-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #e2e8f0;
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+.food-item-list-container {
+  width: 90%;
+  list-style-type: none;
+  padding-left: 0px;
+}
+@media screen and (min-width: 768px) {
+  .food-item-list-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+.restaurant-error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  padding-bottom: 64px;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-error-view-container {
+    margin-top: 0px;
+    margin-left: 30px;
+    width: 80%;
+    padding-bottom: 0;
+  }
+}
+
+.restaurant-failure-img {
+  width: 250px;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-failure-img {
+    width: 400px;
+    height: 350px;
+  }
+}
+
+.restaurant-failure-heading-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-failure-heading-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #1e293b;
+  }
+}
+
+.restaurant-failure-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #475569;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-failure-description {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #475569;
+  }
+}
+.error-button {
+  background-color: #f7931e;
+  border-radius: 8px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .error-button {
+    background-color: #f7931e;
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+}
+
+.restaurant-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 100%;
+}

@@ -1,0 +1,124 @@
+.restaurant-error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  padding-bottom: 64px;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-error-view-container {
+    margin-top: 0px;
+    margin-left: 30px;
+    width: 80%;
+    padding-bottom: 0;
+  }
+}
+
+.restaurant-failure-img {
+  width: 250px;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-failure-img {
+    width: 400px;
+    height: 350px;
+  }
+}
+
+.restaurant-failure-heading-text {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 160% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 800 */
+
+  color: #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-failure-heading-text {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    /* Light / blue-gray / 800 */
+
+    color: #1e293b;
+  }
+}
+
+.restaurant-failure-description {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-failure-description {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+
+    text-align: center;
+
+    /* Light / blue-gray / 600 */
+
+    color: #475569;
+  }
+}
+.error-button {
+  background-color: #f7931e;
+  border-radius: 8px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  /* Light / base / white */
+
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .error-button {
+    background-color: #f7931e;
+    border-radius: 12px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    /* Light / base / white */
+
+    color: #ffffff;
+  }
+}
