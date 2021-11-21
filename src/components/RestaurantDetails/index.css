@@ -38,11 +38,11 @@
 .specific-restaurant-image {
   width: 221px;
   height: 221px;
-  border-radius: 100px;
-  border-bottom-right-radius: 150px;
-  border-top-right-radius: 70px;
-  margin-right: 16px;
-  margin-left: -68px;
+  border-radius: 100%;
+  border-bottom-right-radius: 500px;
+  border-top-right-radius: 500px;
+  margin-left: -80px;
+  margin-right: 20px;
 }
 @media screen and (min-width: 768px) {
   .specific-restaurant-image {
