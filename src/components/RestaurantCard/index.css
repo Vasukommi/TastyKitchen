@@ -11,7 +11,7 @@
 }
 @media screen and (min-width: 768px) {
   .restaurant-item {
-    width: 30%;
+    width: 350px;
     margin-bottom: 32px;
   }
 }
@@ -29,12 +29,7 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
-
   letter-spacing: 0.2px;
-
-  /* Light / blue-gray / 700 */
-
   color: #334155;
   margin: 0;
 }
@@ -45,12 +40,7 @@
     font-weight: bold;
     font-size: 18px;
     line-height: 24px;
-    /* identical to box height, or 133% */
-
     letter-spacing: 0.2px;
-
-    /* Light / blue-gray / 700 */
-
     color: #334155;
   }
 }
@@ -60,10 +50,6 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 16px;
-  /* identical to box height, or 133% */
-
-  /* Light / blue-gray / 500 */
-
   color: #64748b;
   margin-top: 8px;
   margin-bottom: 9px;
@@ -75,10 +61,6 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    /* identical to box height, or 171% */
-
-    /* Light / blue-gray / 500 */
-
     color: #64748b;
   }
 }
@@ -100,9 +82,6 @@
   line-height: 18px;
   display: flex;
   align-items: center;
-
-  /* Light / blue-gray / 800 */
-
   color: #1e293b;
 }
 @media screen and (min-width: 768px) {
@@ -116,9 +95,6 @@
     align-items: center;
     margin-top: 0px;
     margin-bottom: 0px;
-
-    /* Light / blue-gray / 900 */
-
     color: #0f172a;
   }
 }
@@ -137,12 +113,7 @@
   line-height: 16px;
   margin-top: 0px;
   margin-bottom: 0px;
-  /* identical to box height */
-
   display: flex;
   align-items: center;
-
-  /* Light / blue-gray / 500 */
-
   color: #64748b;
 }

@@ -41,33 +41,7 @@ class AllRestaurantSection extends Component {
 
   componentDidMount() {
     this.getRestaurants()
-    // this.getAllRestaurants()
   }
-
-  // search functionality
-  //   getAllRestaurants = async () => {
-  //     const jwtToken = Cookies.get('jwt_token')
-  //     const apiUrl = `https://apis.ccbp.in/restaurants-list?offset=0&limit=30`
-  //     const options = {
-  //       headers: {
-  //         Authorization: `Bearer ${jwtToken}`,
-  //       },
-  //       method: 'GET',
-  //     }
-  //     const response = await fetch(apiUrl, options)
-  //     if (response.ok) {
-  //       const fetchedData = await response.json()
-  //       const updatedData = fetchedData.restaurants.map(restaurant => ({
-  //         name: restaurant.name,
-  //         cuisine: restaurant.cuisine,
-  //         id: restaurant.id,
-  //         imageUrl: restaurant.image_url,
-  //         rating: restaurant.user_rating.rating,
-  //         totalReviews: restaurant.user_rating.total_reviews,
-  //       }))
-  //       console.log('res', updatedData)
-  //     }
-  //   }
 
   getRestaurants = async () => {
     this.setState({
@@ -87,6 +61,7 @@ class AllRestaurantSection extends Component {
     const response = await fetch(apiUrl, options)
     if (response.ok) {
       const fetchedData = await response.json()
+      console.log(fetchedData)
       const maxItems = fetchedData.total
       const maxPages = (maxItems % 9) + 1
       const updatedData = fetchedData.restaurants.map(restaurant => ({
@@ -96,6 +71,7 @@ class AllRestaurantSection extends Component {
         imageUrl: restaurant.image_url,
         rating: restaurant.user_rating.rating,
         totalReviews: restaurant.user_rating.total_reviews,
+        ratingColor: restaurant.user_rating.rating_color,
       }))
       this.setState({
         maxPages,

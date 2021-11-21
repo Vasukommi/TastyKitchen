@@ -1,0 +1,95 @@
+.find-food-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.input-search {
+  height: 40px;
+  width: 100%;
+  border: 1px solid #f7931e;
+  padding-left: 20px;
+  font-weight: bold;
+  outline: none;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.search-button {
+  height: 40px;
+  color: #ffffff;
+  background-color: #f7931e;
+  border: none;
+  outline: none;
+  width: 60px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.veg-restaurants-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+
+.veg-restaurants-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+  width: 100%;
+}
+
+.top-rated-veg-heading {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.food-not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-food-image {
+  height: 100px;
+}
+
+.no-restaurants-heading {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.no-food-para {
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.no-food-close-button {
+  height: 35px;
+  width: 80px;
+  border: none;
+  color: #ffffff;
+  background-color: #f7931e;
+  outline: none;
+  border-radius: 6px;
+}
+
+.search-result-restaurants-container {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -118,9 +118,9 @@
   padding: 15px;
   outline: none;
   cursor: pointer;
-  z-index: 1;
+  z-index: 2;
   position: absolute;
-  margin-top: 60px;
+  margin-top: 10px;
   overflow: hidden;
   height: 112px;
   width: 161px;

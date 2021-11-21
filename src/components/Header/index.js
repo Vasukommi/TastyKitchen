@@ -69,6 +69,12 @@ class Header extends Component {
                 </li>
 
                 <li className="nav-menu-item">
+                  <Link to="/find-food" className="nav-link">
+                    Find Food
+                  </Link>
+                </li>
+
+                <li className="nav-menu-item">
                   <Link to="/cart" className="nav-link">
                     Cart
                   </Link>

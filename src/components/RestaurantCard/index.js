@@ -4,7 +4,15 @@ import './index.css'
 
 const RestaurantCard = props => {
   const {restaurant} = props
-  const {imageUrl, name, cuisine, rating, totalReviews, id} = restaurant
+  const {
+    imageUrl,
+    name,
+    cuisine,
+    rating,
+    totalReviews,
+    id,
+    ratingColor,
+  } = restaurant
 
   return (
     <li testid="restaurant-item" className="restaurant-item">
@@ -14,7 +22,7 @@ const RestaurantCard = props => {
           <h1 className="restaurant-name">{name}</h1>
           <p className="restaurant-cuisine">{cuisine}</p>
           <div className="rating-container">
-            <AiFillStar className="star" />
+            <AiFillStar className="star" style={{color: `${ratingColor}`}} />
             <p className="rating">{rating}</p>
             <p className="reviews">({totalReviews} rating)</p>
           </div>
