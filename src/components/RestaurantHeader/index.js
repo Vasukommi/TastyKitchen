@@ -50,7 +50,7 @@ class RestaurantHeader extends Component {
     return (
       <div className="mobile-filter">
         <BsFilterRight size={18} />
-        <p className="sort-bye-title">Sort By</p>
+        <p className="sort-by-title">Sort By</p>
         <select
           className="sort-by-select-mobile"
           value={activeOptionId}

@@ -163,11 +163,10 @@
   align-items: center;
 }
 
-.sort-bye-title {
+.sort-by-title {
   font-size: 14px;
   font-family: DM Sans;
   margin-left: 5px;
-  margin-right: -5px;
 }
 
 @media screen and (min-width: 768px) {
