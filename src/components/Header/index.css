@@ -245,8 +245,8 @@
   background-color: #ffffff;
   height: 60px;
   box-shadow: 0px 0px 12px 0px #bfbfbf;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .mobile-nav-button {
