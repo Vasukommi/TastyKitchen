@@ -51,6 +51,27 @@
   color: #ffa412;
 }
 
+.food-item-detail-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.food-item-details-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.remove-food-item-button {
+  font-size: 20px;
+  align-self: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
 .desktop-list-cart-item {
   display: flex;
   justify-content: space-between;
@@ -108,6 +129,7 @@
   color: #ffa412;
   width: 30%;
   text-align: center;
+  margin-right: -80px;
 }
 .decrement-button {
   background-color: transparent;

@@ -1,8 +1,9 @@
 .cart-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
+  height: 90vh;
 }
 @media screen and (min-width: 768px) {
   .cart-container {
@@ -115,6 +116,22 @@
   cursor: pointer;
   outline: none;
   margin-bottom: 48px;
+}
+
+.remove-all-cart-items {
+  background: #f7931e;
+  border-radius: 8px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  border: none;
+  height: 32px;
+  width: 99px;
+  cursor: pointer;
+  outline: none;
 }
 .empty-cart-container {
   display: flex;

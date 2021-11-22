@@ -89,11 +89,13 @@ class Cart extends Component {
                       ))}
                     </ul>
                     <hr className="cart-line" />
-                    <div className="total-cart-amount-container">
-                      <p className="total-order-text">Order Total:</p>
-                      <p testid="total-price" className="total-order-amount">
-                        ₹{totalCartAmount}
-                      </p>
+                    <div>
+                      <div className="total-cart-amount-container">
+                        <p className="total-order-text">Order Total:</p>
+                        <p testid="total-price" className="total-order-amount">
+                          ₹{totalCartAmount}
+                        </p>
+                      </div>
                     </div>
                     <div className="place-order-button-container">
                       <button

@@ -1,5 +1,6 @@
 import {Component} from 'react'
 import {BsPlusSquare, BsDashSquare} from 'react-icons/bs'
+import {AiFillCloseCircle} from 'react-icons/ai'
 import './index.css'
 
 class CartItem extends Component {
@@ -30,6 +31,15 @@ class CartItem extends Component {
     }
   }
 
+  onRemoveCartItem = () => {
+    const {onChangeTotalAmount, eachItem, onDeleteCartItem} = this.props
+    const {cost, id} = eachItem
+    onDeleteCartItem(id)
+    onChangeTotalAmount(-1 * cost)
+    localStorage.removeItem(`quantity${id}`)
+    localStorage.removeItem(`isButtonClicked${id}`)
+  }
+
   onIncrementClicked = () => {
     const {onChangeTotalAmount, eachItem} = this.props
     const {cost} = eachItem
@@ -52,33 +62,42 @@ class CartItem extends Component {
             src={imageUrl}
             alt={imageUrl}
           />
-          <div>
-            <h1 className="cart-Item-name">{name}</h1>
-            <div className="cartItem-quantity-container">
-              <button
-                testid="decrement-quantity"
-                type="button"
-                className="decrement-button"
-                onClick={this.onDecrementClicked}
-              >
-                <BsDashSquare />
-              </button>
-              <span testid="item-quantity" className="cart-item-quantity">
-                {quantity}
-              </span>
-              <button
-                testid="increment-quantity"
-                type="button"
-                className="increment-button"
-                onClick={this.onIncrementClicked}
-              >
-                <BsPlusSquare />
-              </button>
+          <div className="food-item-detail-container">
+            <div className="food-item-details-section">
+              <h1 className="cart-Item-name">{name}</h1>
+              <div className="cartItem-quantity-container">
+                <button
+                  testid="decrement-quantity"
+                  type="button"
+                  className="decrement-button"
+                  onClick={this.onDecrementClicked}
+                >
+                  <BsDashSquare />
+                </button>
+                <span testid="item-quantity" className="cart-item-quantity">
+                  {quantity}
+                </span>
+                <button
+                  testid="increment-quantity"
+                  type="button"
+                  className="increment-button"
+                  onClick={this.onIncrementClicked}
+                >
+                  <BsPlusSquare />
+                </button>
+              </div>
+              <p testid="total-price" className="cart-item-cost">
+                <span>₹ </span>
+                {totalItemCost}
+              </p>
             </div>
-            <p testid="total-price" className="cart-item-cost">
-              <span>₹ </span>
-              {totalItemCost}
-            </p>
+            <button
+              onClick={this.onRemoveCartItem}
+              className="remove-food-item-button"
+              type="button"
+            >
+              <AiFillCloseCircle />
+            </button>
           </div>
         </li>
         <li testid="cartItem" className="desktop-list-cart-item">
@@ -115,6 +134,13 @@ class CartItem extends Component {
             <span>₹ </span>
             {totalItemCost}
           </p>
+          <button
+            onClick={this.onRemoveCartItem}
+            className="remove-food-item-button"
+            type="button"
+          >
+            <AiFillCloseCircle />
+          </button>
         </li>
       </>
     )
