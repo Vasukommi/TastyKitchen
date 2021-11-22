@@ -120,7 +120,6 @@
   cursor: pointer;
   z-index: 2;
   position: absolute;
-  margin-top: 10px;
   overflow: hidden;
   height: 112px;
   width: 161px;
@@ -156,6 +155,19 @@
   .desktop-filter {
     display: none;
   }
+}
+
+.mobile-filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sort-bye-title {
+  font-size: 14px;
+  font-family: DM Sans;
+  margin-left: 5px;
+  margin-right: -5px;
 }
 
 @media screen and (min-width: 768px) {

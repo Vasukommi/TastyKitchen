@@ -49,6 +49,8 @@ class RestaurantHeader extends Component {
     const {sortByOptions, activeOptionId} = this.props
     return (
       <div className="mobile-filter">
+        <BsFilterRight size={18} />
+        <p className="sort-bye-title">Sort By</p>
         <select
           className="sort-by-select-mobile"
           value={activeOptionId}
