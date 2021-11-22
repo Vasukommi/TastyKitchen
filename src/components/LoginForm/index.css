@@ -35,8 +35,8 @@
 }
 
 .login-website-logo-desktop-image {
-  width: 53px;
-  height: 43px;
+  width: 50px;
+  height: 40px;
 }
 
 @media screen and (max-width: 991px) {
@@ -61,7 +61,7 @@
     flex-shrink: 0;
     box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
     padding: 48px;
-    min-height: 60vh;
+    min-height: 50vh;
   }
 }
 
@@ -83,7 +83,7 @@
 
 .username-input-field {
   font-size: 14px;
-  height: 40px;
+  height: 38px;
   border: 1px solid #d7dfe9;
   background-color: #e2e8f0;
   color: #64748b;
@@ -95,7 +95,7 @@
 
 .password-input-field {
   font-size: 14px;
-  height: 40px;
+  height: 38px;
   border: 1px solid #d7dfe9;
   background-color: #e2e8f0;
   color: #64748b;
@@ -110,7 +110,7 @@
   font-weight: bold;
   font-size: 14px;
   color: #ffffff;
-  height: 40px;
+  height: 38px;
   width: 100%;
   margin-top: 20px;
   margin-bottom: 2px;
@@ -136,7 +136,7 @@
   font-family: DM Sans;
   font-style: italic;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 32px;
   color: #f7931e;
   margin-top: 2px;
@@ -147,7 +147,7 @@
   font-family: DM Sans;
   font-style: normal;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 40px;
   color: #0f172a;
   margin-top: 0;
