@@ -234,7 +234,7 @@ class FindFood extends Component {
   renderLoadingView = () => (
     <div
       testid="restaurant-details-loader"
-      className="restaurant-loader-container"
+      className="restaurant-find-food-loader-container"
     >
       <Loader type="Oval" color="#F7931E" height="50" width="50" />
     </div>

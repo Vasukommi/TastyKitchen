@@ -95,6 +95,13 @@
   padding: 0;
 }
 
+.restaurant-find-food-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
 @media screen and (max-width: 768px) {
   .search-result-restaurants-container {
     width: 90%;
